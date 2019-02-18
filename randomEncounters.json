@@ -1,0 +1,200 @@
+{
+  "encounters": 
+  [
+    { 
+      "name": "Bandits",
+      "text": "A marauding gang of bandits confronts the party. The gang consists of a bandit captain and 3d6+2 bandits, all wearing cloaks and mounted on riding horses.  There is a 25 percent chance that the bandits attack without provocation. Otherwise, the captain promises not to attack in exchange for a toll (no less than 100 gp worth of treasure). If the characters pay up, the captain bids them a safe journey before departing peacefully.  \nSea. If this encounter occurs at sea, the characters encounter a pirate captain (use the bandit captain stat block) and twenty pirates (use the bandit stat block) on a longship. Longships have a speed of 3 miles per hour.  If the vessel the characters are in moves at least as fast, they can successfully flee from the pirates. Otherwise, the pirates overtake the characters' vessel and board it, threatening to kill everyone aboard unless the characters surrender the contents of their ship's hold. If the characters comply with the pirates' demands, the pirates transfer the cargo and flee with their booty.",
+      "treasure": "Treasure. Each bandit carries a pouch containing ldlO gp. The bandit captain's pouch holds 2d10 gp and 1d6 gems worth 100 gp each.",
+      "creatures": 
+      [
+        "bandit,1+,25xp,ranged 3/1d8+1,,1d6+1,3,12,2d8+2",
+        "bandit captain,3+,450xp,parry (+2 AC 1 time per round),,1d6+3/1d4+3,5x2/5x1,15,10d8+20"
+      ]
+    },
+    { 
+      "name": "Barbarians",
+      "text": "The characters encounter a hostile group of Uthgardt barbarians consisting of 4d6 tribal warriors and an Uthgardt shaman (see appendix C). If the group has twenty or more tribal warriors, add 1d3 berserkers and a tribal chieftain (a berserker with 90 hit points) to the group. If the encounter occurs during the day, the Uthgardt are prowling the countryside while hunting wild game; if the encounter occurs at night, they are camped.  Use the information in the \"Uthgardt Barbarians\" section to choose an appropriate tribe based on the location where the encounter takes place. If these Uthgardt belong to the Gray Wolf tribe, use the werewolf statistics for the chieftain and the berserkers, and give the chieftain 90 hit points. Also give the Gray Wolf chieftain 1d4 wolves as animal companions.  The barbarians carry no treasure.\\n Sea. If this encounter occurs at sea, the characters encounter 1d3 longships, each with ten berserkers and thirty tribal warriors aboard. One of the berserkers serves as the captain. These hostile, bloodthirsty Northfolk raiders hail from Gundarlun, the Korinn Archipelago, Tuern, or the Whalebones. The longships have a speed of 3 miles per hour. If the vessel the characters are in moves at least as fast, the characters can flee from the barbarians and avoid an altercation.",
+      "treasure": "none",
+      "creatures": 
+      [
+        "tribal warrior,0,25xp,ranged 20/60,,1d8+1,3,12,2d8+2",
+        "Uthgardt shaman,1+,450xp,shortbow 3/1d6+1,see stat block,1d8+2,4,13,7d8+7",
+        "berserker,1+,450xp,reckless attack,,1d12+3,5,13,9d8+27",
+        "tribal chieftain,1+,450xp,reckless attack,,1d12+3,5,13,90",
+        "werewolf,1+,700xp,immune to non-magical damage,shapechange,1d8+2 DC 12 Con/2d4+2,4x2,12,9d8+18",
+        "wolf,2+,50xp,pack tactics,,2d4+2 DC 11 Str,4,13,2d8+2"
+      ]
+    },
+    { 
+      "name": "Battlefield",
+      "text": "The characters discover the corpses of 3d10 Uthgardt barbarians and 1d4 frost giants. The barbarians and giants appear to have killed one another within the past week. Carrion birds and one or two wolves pick at the corpses and flee if they are startled or attacked.",
+      "treasure": "none",
+      "creatures": 
+      [
+      ]
+    },
+    { 
+      "name": "Cloud Castle",
+      "text": "The characters spot a giant castle in the clouds. The castle is drifting a mile above the ground and poses no imminent threat. If this encounter occurs anywhere near the Evermoors, the castle belongs to an evil cloud giant named Countess Sansuri (see chapter 9, \"Castle of the Cloud Giants\"). Otherwise, the castle is home to 1d6+4 neutral good cloud giants who are searching for ancient ruins built by their ancestors. By finding and rebuilding these ancient sites, the giants hope to please their gods and help cloud giants rise to the top of the ordning. These aloof giants have no interest in helping small folk and prefer to be left alone.",
+      "treasure": "none",
+      "creatures": 
+      [
+        "cloud giant,0+,5000xp,,,3d8+8/4d10+8,12x2,14,16d12+96"
+      ]
+    },
+    { 
+      "name": "Crag Cats",
+      "text": "A group of 1d4+1 adult crag cats (see appendix C) hides and attempts to surprise the party. Due to their natural camouflage, the cats have advantage on their Dexterity (Stealth) checks.",
+      "treasure": "none",
+      "creatures": 
+      [
+        "crag cat,3+,200xp,pounce/spell turning/40ft,,1d10+3,5,13,4d10+12"
+      ]
+    },
+    { 
+      "name": "Dig Site",
+      "text": "A fire giant equipped with a rod of the Vonindod (see appendix B) has located a particularly large fragment of the Vonindod and has tasked its minions with digging it up. The giant oversees 1d4+1 ogres, 2d6+2 hobgoblins, and 2d6+10 goblins. The ogres are using ropes to pull the 2,000-pound fragment out of a SO-foot-wide, 30-foot-deep crater. The hobgoblins scream at the ogres to put their backs into it. The goblins lie around the outskirts of the crater, picks and shovels scattered between them. The goblins have spent the past several days digging the crater and are suffering from five levels of exhaustion (see appendix A in the Player's Handbook).",
+      "treasure": "Treasure. The ogres and goblinoids carry no treasure.  The fire giant has a sack containing 3d6 x 100 cp, 2d6 x 100 sp, 1d6 x 100 gp, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.",
+      "creatures": 
+      [
+        "fire giant,1-,5000xp,,,6d6+7/4d10+7,11x2,18,13d12+78",
+        "ogre,1-,450xp,,,2d8+4/2d6+4 30/120,6,11,7d10+21",
+        "hobgoblin,1+,100xp,Martial advantage,,1d10+1/1d8+1 150/600,3,18,2d8+2",
+        "goblin,2+,50xp,Nimble Escape,,1d6+2,4,15,2d6"
+      ]
+    },
+    { 
+      "name": "Dragon",
+      "text": "The characters spot a young copper dragon flying lazy circles over its domain. Adventurers who get the dragon's attention might be able to bribe it in exchange for a small favor. A sample copper dragon is described below.  Vexilanthus doesn't consider the party a threat unless they attack him. If the characters mention that they're on the lookout for giants, Vexilanthus says that he spotted a hill giant prowling around an old tower in the hills.  The dragon steers the adventurers in that direction, hoping that they'll dispose of the giant. If the characters take the bait, see the \"Old Tower\" section at the end of this chapter. For a payment of 500 gp or more, Vexilanthus will provide safe escort to the nearest settlement.",
+      "treasure": "none",
+      "creatures": 
+      [
+        "young copper dragon,1+,2900xp,,Acid/Slow Breath,2d10+4/2d6+4,7x3,17,14d10+42"
+      ]
+    },
+    { 
+      "name": "Elk",
+      "text": "The characters come across 2d10 elk (or reindeer). The beasts aren't hostile and flee if attacked.",
+      "treasure": "Treasure. There is a 1 percent chance per elk present that one of them has antlers of pure gold. Each of its antlers is worth 250 gp.",
+      "creatures": 
+      [
+        "elk,0,50xp,50ft / Charge,,1d6+3 / 2d4+3 prone,5,10,2d10+2"
+      ]
+    },
+    { 
+      "name": "Elves",
+      "text": "A band of 3d6 wood elves offers to escort the party through the forest, steering the characters around the elves' hidden settlements. If they accept the offer, the characters have no hostile encounters while passing through the forest. If the characters refuse, the elves offer no further assistance and disappear into the woods.  Sea. If this encounter occurs at sea, the characters encounter 3d6 friendly sea elves. These elves know the location of Maelstrom (see chapter 10, \"Hold of the Storm Giants\") and can lead characters there upon request; they also warn characters about Maelstrom's whirlpool if they're headed in that direction.",
+      "treasure": "none",
+      "creatures": 
+      [
+        "wood elf,2+,100xp,Keen Senses / 35ft / Natural hiding / adv against charm / darkvision,,1d6+2/1d8+2 150/600,4,13,3d8+3",
+        "sea elf,1+,25xp,Amphibious / 10ft / 30ft swim,,1d8,2,11,2d8+2"
+      ]
+    },
+    { 
+      "name": "Fire Giant",
+      "text": "A fire giant is searching for lost fragments of the Vonindod.  The giant carries a rod of the Vonindod (see appendix B), and 1d4+2 smoke mephits are fluttering around it. The giant is frustrated because weeks of searching have yielded nothing of value. If it spots the adventurers, it puts away the rod and begins hurling rocks at them to alleviate its boredom and frustration.  The mephits follow the giants' commands to the best of their ability, though they loathe melee combat. On subsequent occurrences of this encounter, you can replace the mephits with 1d2 hell hounds, 1d2 fire elementals, or 1d4+2 magmins.",
+      "treasure": "Treasure. The fire giant has a sack containing 3d6 x 100 cp, 2d6 x 100 sp, 1d6 x 100 gp, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.",
+      "creatures": 
+      [
+        "fire giant,1-,5000xp,,,6d6+7/4d10+7,11x2,18,13d12+78",
+        "smoke mephits,2+,50xp,fly 30ft / Death Burst / immune to fire and poison,Cinder Breath,1d4+2,4,12,5d6+5",
+        "hell hound,1+,700xp,50ft / Keen Senses / Pack Tactics,,1d8+3+2d6 fire,5,15,7d8+14",
+        "fire elemental,3+,1800xp,Fire Form / Water suspectibility,,2d6+3 fire / 1d10 over time,6x2,13,12d10+36",
+        "magmin,2+,100xp,Death Burst,,2d6 fire / 1d6 fire over time,4,14,2d6+2"
+      ]
+    },
+    { 
+      "name": "Food Hunters",
+      "text": "A male hi11 giant is looking for food, stuffing anything that looks even remotely edible into a big sack that he drags behind him. Lagging a few hundred feet behind the giant are 1d4 bored ogres and 1d6 bugbears. Characters spot the giant from far enough away that they can plan an ambush. For an ambush to succeed, the characters must catch the monsters by surprise by succeeding on a group DC 10 Dexterity (Stealth) check.",
+      "treasure": "Treasure. The hill giant's sack contains 1d4 mundane items, determined by rolling on the Items in a Giant's Bag table in the introduction.",
+      "creatures": 
+      [
+        "hill giant,1-,1800xp,,,3d8+5 / 3d10+5 60/240,8x2,13,10d12+40",
+        "ogre,1-,450xp,,,2d8+4/2d6+4 30/120,6,11,7d10+21",
+        "bugbear,2+,200xp,Surprise Attack,,2d8+2/2d6+2 30/120,4,16,5d8+5"
+      ]
+    },
+    { 
+      "name": "Frost Giants",
+      "text": "The characters come upon 1d3 frost giants. If a single giant is encountered, it has a winter wolf companion.  The giants are marauders looking for homesteads or caravans to wreck and plunder.  Sea. If this encounter occurs at sea, the party encounters a frost giant greatship (see chapter 7, \"Berg of the Frost Giants\") with twenty hostile frost giants aboard.  If the characters are traveling aboard a vessel that has a speed of at least 3 miles per hour, their ship can outpace the frost giants' greatship. Otherwise, the greatship overtakes them.",
+      "treasure": "Each frost giant has a sack containing 3d6 x 100 cp, 2d6 x 100 sp, 1d6 x 100 gp, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.",
+      "creatures": 
+      [
+        "frost giant,1-,3900xp,,,3d12+6 / 4d10+6 60/240,9x2,15,12d12+60",
+        "winter wolf,1+,700xp,Pack Tactics / snow camo / keen senses,cold breath,2d6+4 DC 14 str,6,13,10d10+20"
+      ]
+    },
+    { 
+      "name": "Hill Giants",
+      "text": "A band of 1d2+1 male hi11 giants is searching for homesteads to pillage. The giants hurl rocks at any small folk they see. If the giants are anywhere near Grudd Haug (see chapter 5, \"Den of the Hill Giants\"), the characters might be able to convince a defeated, captured giant to lead them there.",
+      "treasure": "Each giant carries a sack holding 1d3 mundane items; roll on the Items in a Giant's Bag table in the introduction to determine the contents of each one.",
+      "creatures": 
+      [
+        "hill giant,1-,1800xp,,,3d8+5 / 3d10+5 60/240,8x2,13,10d12+40"
+      ]
+    },
+    { 
+      "name": "Horse-Drawn Wagon",
+      "text": "The characters encounter a draft horse pulling a battered old wagon. Accompanying the wagon are 1d6-1 people (use the commoner stat block unless otherwisenoted below). If the die result indicates that no commoners are present, that means the drivers are either missing or dead, leaving the horse and wagon unattended.  If one or more people are present, assume that they are guiding the wagon toward the nearest settlement. The encounter might be one of the following: \n- Friendly furriers transporting 2d4 bundles of animal pelts worth 50 gp per bundle \n- Friendly peddlers transporting 3d6 ten-gallon kegs of dwarven ale worth 5 gp each \n- Friendly, dirt-poor musicians looking for a tavern or an inn; the wagon holds their instruments, food, and traveling gear \n- Hostile bandits (NE male and female Illuskan humans) posing as friendly traders, transporting a stolen wagon laden with foodstuffs to their encampment \n- A family fleeing their homestead in the wake of rumors of giant sightings; the wagon contains their food and their mundane belongings \n- A friendly merchant transporting 2d4 pigs worth 3 gp each; any other persons present are Zhentarim guards (N male and female humans of various ethnicities) hired to ward off bandits and other threats \n- Friendly Zhentarim mercenaries (NG male and female human veterans of various ethnicities) transporting thirty longswords (worth 15 gp each) and fifty shortswords (worth 10 gp each) to a Zhent merchant waiting for them in the nearest settlement",
+      "treasure": "",
+      "creatures": 
+      [
+        "bandit,1+,25xp,ranged 3/1d8+1,,1d6+1,3,12,2d8+2"
+      ]
+    },
+    { 
+      "name": "Knight",
+      "text": "The Order of the Gauntlet is taking strides to deal with the giant threat. The characters encounter a knight of the order mounted on a warhorse clad in chain mail barding (AC 16). There is a 50 percent chance that the knight has a squire-a guard mounted on an unarmored warhorse. Two sample knights (one with a squire, one without) are presented below.  Lady Harriana Hawkwinter (LG female Chondathan knight of Helm) is a Waterdhavian noble and a champion of the god of watchfulness. She and her squire recently rescued a couple of children trapped under the wreckage of a barn that had been demolished by stone giants. Lady Hawkwinter asks the characters to take the orphans to the nearest settlement while she continues to follow the giants' path and search for other survivors.  Sir Jordeth Tavilson (LN male Illuskan knight of Tyr), a believer in swift justice, has a gash in his armor and a broken lute strapped to his back. The lute belonged to his squire, who perished in a recent battle against two &ost giants.Jordeth managed to kill one giant, but the other got away. He wants justice and asks the characters to join him on his quest to slay the wounded giant.",
+      "treasure": "",
+      "creatures": 
+      [
+        "frost giant,1-,3900xp,,,3d12+6 / 4d10+6 60/240,9x2,15,12d12+60"
+      ]
+    },
+    { 
+      "name": "Ogres",
+      "text": "The characters hear loud, deep voices and spot 1d4+1 ogres from a safe distance away. The big dummies are lost and trying to find their way home, whether that is Grudd Haug (see chapter 5, \"Den of the Hill Giants\") or some other location. The characters catch them in the middle of a loud argument about which direction they should go, and can easily avoid the ogres or take them by surprise. Sea. If this encounter occurs at sea, the party encounters 1d4+1 merrow. The merrow try to harpoon characters and pull them into the water.",
+      "treasure": "none",
+      "creatures": 
+      [
+        "ogre,1-,450xp,,,2d8+4/2d6+4 30/120,6,11,7d10+21",
+        "merrow,0,450xp,10ft / 40ft swim,,1d8+4/2d6+4 20/60,6x2,13,6d10+12"
+      ]
+    },
+    { 
+      "name": "Orcs",
+      "text": "The characters come across 3d6+2 ores. There is a 25 percent chance that these ores have prisoners in tow.  A sample group of prisoners is presented here, but you can create others.  The prisoners are ld4+2 strongheart halfling commoners belonging to the Woodhew clan. The oldest among them is a feisty old gardener named Ollie Woodhew.  The orcs set fire to the Woodhew homestead and captured these family members as they tried to flee. One of the ores even broke Ollie's favorite walking stick.",
+      "treasure": "If the characters escort the Wood hews back to their torched homestead, the halflings are reunited with the members of their family who avoided capture. One of them rewards the party with a family heirloom (a magic item) hidden in the burnt remains of the family home. Roll on Magic Item Table F in chapter 7 of the Dungeon Master's Guide to determine the item.",
+      "creatures": 
+      [
+        "orc,1+,100xp,,,1d12+3/1d6+3 30/120,5,13,2d8+6"
+      ]
+    },
+    { 
+      "name": "Ranger",
+      "text": "The characters encounter a helpful ranger, who might be a member of the Emerald Enclave or simply a wanderer of the wilderness. Either way, the ranger is happy to serve as a guide or a source of information. There is a 50 percent chance that the ranger has a riding horse, one or more beast companions, or both. A ranger with neither travels alone on foot. Two sample rangers are presented below, but you can create others. \n- Vordana Jezral ( NG female lightfoot halfling scout) has the psionic ability to cast the misty step spell once per day. She is familiar with the roads and trails of the North and the settlements along them. She knows every innkeeper from Neverwinter to Deadsnows, and she has two traveling companions: a tressym (see appendix C) named Flycatcher and an old mule named Tod, which she freed from an abusive owner. \n- Saarvin (CN male dragonborn scout) travels on foot and carries his own gear. He was born in Fireshear and is the self-proclaimed King of the Frozen far. He claims to have climbed the tallest peak in the Spine of the World and plucked coins from the hoard of a white dragon sleeping less than 10 feet away. Each night, while sitting by the campfire, he carves a tiny wooden figurine depicting one of the characters and gives it to that individual as a gift the next morning.",
+      "treasure": "none",
+      "creatures": 
+      [
+      ]
+    },
+    { 
+      "name": "Stone Giants",
+      "text": "A group of 1d3+1 stone giants is searching for settlements to destroy and ruins to dismantle. The giants might already be in the midst of dismantling a ruin, intent on wiping its existence from the face of the world.  They hurl rocks at any \"small folk\" they see.",
+      "treasure": "Treasure. Each giant has a sack containing 2d6 x 100 gp, 1d6 100 gp gems, and one mundane item, determined by rolling on the Items in a Giant's Bag table in the introduction.",
+      "creatures": 
+      [
+        "stone giant,2+,2900xp,40ft,,3d8+6 / 4d10+6 60/240 DC 17 str,9x2,17,11d12+55"
+      ]
+    },
+    { 
+      "name": "Travelers",
+      "text": "The characters encounter one or more travelers (use the commoner stat block) with a tale to tell: \n- Forest: 1d6 hunters or trappers who heard something big moving through the forest and ran \n- Grassland: 1d6 farmers whose homestead was attacked by hill giants, or 1d4 ranchers on riding horses who are heading to a nearby settlement to warn it about giants in the area \n- Hills/Moors: 1d4 shepherds guiding the remnants of their flock to safety after a harrowing hill giant encounter \n- Mountains: 1d4 prospectors or miners who had a close call with some frost giants or stone giants and were forced to leave behind their mining gear, supplies, and treasure \n- Road/Trail: Either 3d6 peasants fleeing their homes after a frost giant, hill giant, or stone giant attack; an angry mob of 6d6 peasants looking to reclaim their land or avenge dead loved ones; or a lone merchant or minstrel in a horse-drawn wagon who is relocating to a safer settlement \n- Sea: Either a friendly vessel carrying 6d6 crew and passengers who saw a cloud giant castle or a frost giant greatship, or 1d4 survivors floating on debris after their ship was sunk by a frost giant greatship \n- Tundra: 1d4 hunters or trappers who narrowly escaped from a fire giant or a frost giant but were forced to leave a companion behind",
+      "treasure": "none",
+      "creatures": 
+      [
+      ]
+    }
+  ]
+}
